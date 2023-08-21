@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'Alata';
+  src: url('path-to-your-font-file.woff2') format('woff2');
+  /* Replace with the actual path to your font file */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('path-to-your-font-file.woff2') format('woff2');
+  /* Replace with the actual path to your font file */
+  font-weight: 10;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  display: inline-block;
+  position: relative;
+}
+.backgfr {
+  width: 100%;
+}
+.above {
+  font-family: 'Alata', sans-serif;
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+  padding: 0 30px;
+
+}
+
+.fragile {
+  position: absolute;
+  top: 40%;
+  border: 2px solid white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-decoration: uppercase;
+  width: 500px;
+  height: 200px;
+  margin-left: 158px;
+  text-transform: uppercase;
+
+}
+
+.fragile h1 {
+  letter-spacing: 2px;
+  padding-left: 20px;
+  color: white;
+  font-weight: 13;
+  font-size: 48px;
+}
+
+header  ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+header  ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 42px 0;
+  display: inline-block;
+  transition: all ease 0.3s;
+  font-size: 14px;
+}
+
+header ul li a:hover {
+  color: hsl(0, 0%, 55%);
+  border-bottom: 2px solid white;
+
+}
+
+.mainsec {
+  margin-left: 140px;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+}
+
+.inti img {
+  width: 600px;
+  height: 400px;
+}
+
+.frag2 {
+  border: 2px solid white;
+  /* width: 620px;
+  height: 300px; */
+  margin-left: -110px;
+  margin-top: 160px;
+  background-color: white;
+
+}
+
+.frag h1,
+p {
+  margin-left: 90px;
+}
+
+.frag2 h2 {
+  margin-top: 60px;
+  margin-left: 90px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 10;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.frag2 p {
+  margin-top: 30px;
+  font-family: 'Alata', sans-serif;
+  color: hsl(0, 0%, 55%);
+  font-size: 14px;
+}
+
+/* .secsecse {
+        border: 1px solid hsl(0, 0%, 0%) ;
+        cursor: pointer;
+         letter-spacing: 1px; 
+         font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        width: 120px;
+        height: 24px; 
+        margin-top: 80px;
+        text-align: center;
+        justify-content: center;
+
+    } */
+.secondsec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 140px;
+  justify-content: space-between;
+  width: 76%;
+  margin-top: 40px;
+}
+
+/* BUTTON*/
+
+.button-4 {
+  appearance: none;
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 2px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  width: 110px;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #f7f9fb;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+.secondsec h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 10;
+  color: hsl(0, 0%, 0%);
+  letter-spacing: 1px;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  width: 76%;
+  margin-left: 140px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+
+}
+
+.card {
+  position: relative;
+}
+
+.cards img {
+  width: 220px;
+  margin-top: 20px;
+  opacity: 0.9;
+
+}
+
+.text {
+  color: hsl(0, 20%, 97%);
+  position: absolute;
+  margin-top: -80px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-size: 19px;
+
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: hsl(0, 0%, 0%);
+  margin-top: 120px;
+}
+
+.logosfooter {
+  margin-left: 160px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 110px;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0 30px;
+  cursor: pointer;
+
+}
+.logosfooter div{
+  margin-top: 40px;
+}
+.footerl2 img {
+  margin-left: 20px;
+  margin-bottom: 38px;
+} 
+.footerl2 img:hover {
+  border-bottom: 2px solid white;
+  
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+   
+}
+footer ul li a {
+  font-family: 'Alata', sans-serif;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+ transition: all ease 0.3s;
+  font-size: 14px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+  
+footer li a:hover {
+  color: hsl(0, 0%, 55%);
+  border-bottom: 2px solid white;
+
+}
+.footertext {
+  margin-top: 60px;
+  margin-left: 140px;
+  display: flex;
+  flex-direction: row;
+  width: 86%;
+}
+.footertext p{
+  color: hsl(0, 0%, 55%);
+  display: inline-block;
+  font-family: 'Alata', sans-serif;
+  font-size: 12px;
+  margin-left: 426px;
+  margin-bottom: 40px;
+}
